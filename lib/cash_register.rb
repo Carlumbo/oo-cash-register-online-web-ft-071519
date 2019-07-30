@@ -11,9 +11,8 @@ attr_reader :discount, :items
   def add_item(title, price, quantity = 1)
    quantity.times do
      @items << title
-   else
+   end 
     @total += price * quantity
-    end
   end
 
   def apply_discount
