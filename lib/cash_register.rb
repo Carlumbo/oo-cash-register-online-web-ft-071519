@@ -7,4 +7,4 @@ attr_accessor :total
 
 
 
-end 
+end
