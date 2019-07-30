@@ -10,3 +10,5 @@ attr_reader :discount
 def add_item(title, price)
   @total += price
 end
+
+end 
