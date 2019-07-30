@@ -12,6 +12,7 @@ attr_reader :discount, :items
    quantity.times do
      @items << title
    end
+    @last_total = @total
     @total += price * quantity
   end
 
@@ -25,5 +26,8 @@ attr_reader :discount, :items
     end
 end
 
+  def void_last_transaction
+    @total = @last_total
+  end
 
 end
