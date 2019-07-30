@@ -23,7 +23,7 @@ class CashRegister
 
   def new_register_items(items)
     return items
-  end 
+  end
 
 
 
